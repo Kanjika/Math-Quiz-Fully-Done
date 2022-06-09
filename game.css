@@ -1,0 +1,118 @@
+body
+{ background-image:url('Number.gif'); 
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+  
+}
+#body_first
+{
+width: 100%;
+height: 100%;
+color: #fff;
+background: linear-gradient(-45deg, #f4fe6f, #e73c7e, #7e3f90, #23D5AB);
+background-size: 800% 800%;
+position: relative;
+animation: change  10s ease-in-out infinite;
+}
+
+#full
+{
+	color: white;
+}
+#full_2
+{
+	color: white;
+}
+#name_score{
+color: white;
+}
+#player_question 
+{
+background-color: white;
+color: black;
+width: 400px;
+}
+#player_answer
+{
+background-color: white;
+color: black;
+width: 400px;
+}
+
+
+	.login_div1 , .login_div2
+	{
+		background: peachpuff 
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	color: black;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+@keyframes change{
+	0%{
+	background-position: 0 50% ;
+	}
+	50%{
+		background-position: 100% 50% ;
+		}
+		100%{
+			background-position: 0 50% ;
+			}
+}
+
+h1
+{
+	font-size: 60px;
+	font-family: cursive;
+}
+
+h3
+{
+	font-size: 30px;
+	font-family: cursive;
+}
+
+label
+{
+	font-size: 20px;
+}
+
+#player1_name_input
+{
+color: black;
+}
+#log_in
+{
+	font-size: 20px;
+	width: 40px;
+	background-color: #5f3d7c;
+}
+#output
+{
+	color: black;
+}
